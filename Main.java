@@ -9,8 +9,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which year were you born?");
         int birthYear = scanner.nextInt();
-//        String stringBirthYear = console.readLine();
-//        Integer birthYear = Integer.parseInt(stringBirthYear);
         System.out.println("Leap years in your life are:");
         for (int year = birthYear; year < 2022; year++){
             if(year % 4 == 0){
